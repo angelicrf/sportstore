@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.onprem",
+      "connectionId": "SportStoreProducts",
+      "secretStore": "LocalSecretsFile"
+    },
+    "mssql2": {
+      "type": "mssql.onprem",
+      "connectionId": "SportStoreIdentity",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
